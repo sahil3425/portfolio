@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Nunito:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css"
+        integrity="sha512-gMjQeDaELJ0ryCI+FtItusU9MkAifCZcGq789FrzkiM49D8lbDhoaUaIX4ASU187wofMNlgBJ4ckbrXM9sE6Pg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <title>bootstrap</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-expand-md  fixed-top r-nav sticky pb-0">
+        <div class="container-fluid " style="margin-left: 5vw; width: 90vw;" !important>
+            <a href="#" class="navbar-brand">Sahil</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarId" id='navbtn'>
+                <span><i class="fas fa-bars hamburger"></i></span>
+            </button>
+            <div class=" collapse navbar-collapse " id="navbarId">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link hhover">home</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link ahover">about</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services-id" class="nav-link shover">projects</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="#exp-class" class="nav-link chover">skills</a>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#cntct" class="nav-link chover">contact</a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header id="home">
+        <div class="container-fluid header-content">
+            <div class="row">
+                <div class="col text-center ">
+                    <div class="content-box">
+                        <h4>welcome!</h4>
+                        <h1>I'M <span class="element" style="color: #e65f78;font-weight: bolder;"></span></h1>
+                        <p>let's build something amazing together</p>
+                        <button class="btn" id="cv">Download CV</button>
+                        <!-- <a href="#" class="btn">Download CV</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="about r-p " id="about" style="background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1))"
+        !important>
+        <div class="container">
+            <h2 class="text-center">about me</h2><br>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="image/IMG_4011.jpg" class="img-fluid img-thumbnail mt-0" alt="profile picture">
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0">
+
+                    <h4>hey! <span style="color: #e65f78;" !important>I'm Sahil Rajput</span>
+                    </h4>
+                    <p>I'm a Android and Web Developer </p>
+
+                    <p>I enjoy taking complex problems and turning them in to simple and beautiful designs.
+                    </p>
+                    <p>I also love the logic and structure of coding and always strive to write elegant and efficient
+                        code , whether it be HTML,CSS,Jquerry or any other</p>
+                    <p>When I'm not coding , you'll find me in the gym or playing some outdoor games like volleyball
+                        etc.</p>
+                    <div>
+                        <ul class="List-inline">
+                            <li class="list-inline-item "><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="list-inline-item "><a href="https://github.com/sahil3425"><i
+                                        class="fab fa-github"></i></a></li>
+                            <li class="list-inline-item "><a
+                                    href="https://www.linkedin.com/in/sahil-rajput-b6022a200/"><i
+                                        class="fab fa-linkedin"></i></a></li>
+                            <li class="list-inline-item "><a href="https://www.instagram.com/sahilrajput6151/?hl=en"><i
+                                        class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="exp-class" id="exp-class" style="height:100%;">
+        <div class="container "><br><br><br><br><br><br>
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <h3>My Skills</h3>
+                </div>
+
+                <div class="col-md-6 ">
+                    <label>Html</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 20%;" aria-valuemax="100"
+                            aria-valuenow="0" aria-valuemin="0">80%</div>
+                    </div>
+                    <label>Javascript</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuemax="100"
+                            aria-valuenow="0" aria-valuemin="0">75%</div>
+                    </div>
+                    <label>css</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuemax="100"
+                            aria-valuenow="0" aria-valuemin="0">83%</div>
+                    </div>
+                    <label>bootstrap</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuemax="100"
+                            aria-valuenow="0" aria-valuemin="0">90%</div>
+                    </div>
+                    <label>React</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuemax="100"
+                            aria-valuenow="0" aria-valuemin="0">78%</div>
+                    </div>
+                    <label>Jquerry</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuemax="100"
+                            aria-valuenow="0" aria-valuemin="0">85%</div>
+                    </div>
+                    <label>Firebase</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuemax="100"
+                            aria-valuenow="0" aria-valuemin="0">76%</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section><br><br>
+    <section class="service-class  bg-sec r-p" id="services-id"
+        style="background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1))" !important>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <div class="col">
+                        <h2>my projects</h2>
+                    </div>
+                </div>
+            </div><br><br>
+            <h3 class="text-center my-sm-auto">1 SmartIntern :</h3>
+
+            <div class="row justify-content-lg-between  justify-content-sm-between justify-content-md-between">
+                <div class="col-lg-4 col-md-5 col-sm-5 p-sm-auto ">
+                    <h5>Admin Pannel</h5>
+                    <div id="demo" class="carousel slide inner" data-ride="carousel">
+
+
+                        <!-- The slideshow -->
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active ">
+                                <img src="smartIntern/admin/admin1.png" class="img-thumbnail" alt="Los Angeles">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="smartIntern/admin/admin2.png" class="img-thumbnail" alt="Chicago">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="smartIntern/admin/Screenshot_20210704_105219.png" class="img-thumbnail" alt="New York">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="smartIntern/admin/Screenshot_20210704_105231.png" class="img-thumbnail" alt="New York">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="smartIntern/admin/Screenshot_20210704_105254.png" class="img-thumbnail" alt="New York">
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"><i class="fas fa-angle-double-left"></i></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"><i class="fas fa-angle-double-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-5 ">
+                    <h5 class="">User Pannel</h5>
+                    <div id="demo1" class="carousel slide inner " data-ride="carousel">
+
+
+
+                        <!-- The slideshow -->
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active ">
+                                <img src="smartIntern/User/User1.png" class="img-thumbnail" alt="Login">
+                            </div>
+                            <div class="carousel-item  ">
+                                <img src="smartIntern/User/User2.png" class="img-thumbnail" alt="Main">
+                            </div>
+                            <div class="carousel-item  ">
+                                <img src="smartIntern/User/User3.png" class="img-thumbnail" alt="Navigation Menu">
+                            </div>
+                            <div class="carousel-item  ">
+                                <img src="smartIntern/User/Userbooks.png" class="img-thumbnail" alt="Books">
+                            </div>
+                            <div class="carousel-item  ">
+                                <img src="smartIntern/User/UserCompany.png" class="img-thumbnail" alt="Company">
+                            </div>
+                            <div class="carousel-item  ">
+                                <img src="smartIntern/User/UserStartUp.png" class="img-thumbnail" alt="Startup">
+                            </div>
+
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#demo1" data-slide="prev">
+                            <span class="carousel-control-prev-icon"><i class="fas fa-angle-double-left"></i></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo1" data-slide="next">
+                            <span class="carousel-control-next-icon"><i class="fas fa-angle-double-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+            <h3 class="text-center my-sm-auto ">2. HackCovid :</h3>
+
+            <div class="row justify-content-lg-between justify-content-sm-between justify-content-md-between">
+                <div class="col-lg-4 col-md-5 col-sm-5 p-sm-auto ">
+                    <h5>Admin Pannel</h5>
+                    <div id="hdemo" class="carousel slide inner" data-ride="carousel">
+
+
+                        <!-- The slideshow -->
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active ">
+                                <img src="/madad/admin/Screenshot_20210704_182313.png" class="img-thumbnail" alt="Los Angeles">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="madad/admin/Screenshot_20210704_182318.png" class="img-thumbnail" alt="Chicago">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="madad/admin/Screenshot_20210704_182324.png" class="img-thumbnail" alt="New York">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="madad/admin/Screenshot_20210704_182356.png" class="img-thumbnail" alt="New York">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="madad/admin/Screenshot_20210704_182419.png" class="img-thumbnail" alt="New York">
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#hdemo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"><i class="fas fa-angle-double-left"></i></span>
+                        </a>
+                        <a class="carousel-control-next" href="#hdemo" data-slide="next">
+                            <span class="carousel-control-next-icon"><i class="fas fa-angle-double-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-5 ">
+                    <h5 class="">User Pannel</h5>
+                    <div id="hdemo1" class="carousel slide inner " data-ride="carousel">
+
+
+
+                        <!-- The slideshow -->
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active ">
+                                <img src="madad/user/Screenshot_20210704_181706.png" class="img-thumbnail" alt="Login">
+                            </div>
+                            <div class="carousel-item  ">
+                                <img src="madad/user/Screenshot_20210704_181722.png" class="img-thumbnail" alt="Main">
+                            </div>
+                            <div class="carousel-item  ">
+                                <img src="madad/user/Screenshot_20210704_181728.png" class="img-thumbnail" alt="Navigation Menu">
+                            </div>
+                            <div class="carousel-item  ">
+                                <img src="madad/user/Screenshot_20210704_181739.png" class="img-thumbnail" alt="Books">
+                            </div>
+                            <div class="carousel-item  ">
+                                <img src="madad/user/Screenshot_20210704_181746.png" class="img-thumbnail" alt="Company">
+                            </div>
+                            <div class="carousel-item  ">
+                                <img src="madad/user/Screenshot_20210704_181755.png" class="img-thumbnail" alt="Startup">
+                            </div>
+
+                            <div class="carousel-item  ">
+                                <img src="madad/user/Screenshot_20210704_181801.png" class="img-thumbnail" alt="Navigation Menu">
+                            </div>
+                            <div class="carousel-item  ">
+                                <img src="madad/user/Screenshot_20210704_181811.png" class="img-thumbnail" alt="Books">
+                            </div>
+                            <div class="carousel-item  ">
+                                <img src="madad/user/Screenshot_20210704_181814.png" class="img-thumbnail" alt="Company">
+                            </div>
+                            <div class="carousel-item  ">
+                                <img src="madad/user/Screenshot_20210704_181820.png" class="img-thumbnail" alt="Startup">
+                            </div>
+
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#hdemo1" data-slide="prev">
+                            <span class="carousel-control-prev-icon"><i class="fas fa-angle-double-left"></i></span>
+                        </a>
+                        <a class="carousel-control-next" href="#hdemo1" data-slide="next">
+                            <span class="carousel-control-next-icon"><i class="fas fa-angle-double-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+            <h3 class="text-center my-sm-auto ">3. CoviZone :</h3>
+
+            <div class="row justify-content-lg-between justify-content-sm-between justify-content-md-between">
+                <div class="col-lg-4 col-md-5 col-sm-5 p-sm-auto ">
+                    <h5>Admin Pannel</h5>
+                    <div id="cdemo" class="carousel slide inner" data-ride="carousel">
+
+
+                        <!-- The slideshow -->
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active ">
+                                <img src="covizon/admin/Screenshot_20210704_180531 - Copy.png" class="img-thumbnail" alt="Los Angeles">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="covizon/admin/Screenshot_20210704_180800 - Copy.png" class="img-thumbnail" alt="Chicago">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="covizon/admin/Screenshot_20210704_180804.png" class="img-thumbnail" alt="New York">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="covizon/admin/Screenshot_20210704_180810.png" class="img-thumbnail" alt="New York">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="covizon/admin/Screenshot_20210704_180817.png" class="img-thumbnail" alt="New York">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="covizon/admin/Screenshot_20210704_180830.png" class="img-thumbnail" alt="New York">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="covizon/admin/Screenshot_20210704_180844.png" class="img-thumbnail" alt="New York">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="covizon/admin/Screenshot_20210704_180851.png" class="img-thumbnail" alt="New York">
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#cdemo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"><i class="fas fa-angle-double-left"></i></span>
+                        </a>
+                        <a class="carousel-control-next" href="#cdemo" data-slide="next">
+                            <span class="carousel-control-next-icon"><i class="fas fa-angle-double-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-5 ">
+                    <h5 class="">User Pannel</h5>
+                    <div id="cdemo1" class="carousel slide inner " data-ride="carousel">
+
+
+
+                        <!-- The slideshow -->
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active ">
+                                <img src="covizon/user/Screenshot_20210704_180333.png" class="img-thumbnail" alt="Login">
+                            </div>
+                            <div class="carousel-item  ">
+                                <img src="covizon/user/Screenshot_20210704_180346.png" class="img-thumbnail" alt="Main">
+                            </div>
+                            <div class="carousel-item  ">
+                                <img src="covizon/user/Screenshot_20210704_180351.png" class="img-thumbnail" alt="Navigation Menu">
+                            </div>
+                            <div class="carousel-item  ">
+                                <img src="covizon/user/Screenshot_20210704_180407.png" class="img-thumbnail" alt="Books">
+                            </div>
+                            <div class="carousel-item  ">
+                                <img src="covizon/user/Screenshot_20210704_180416.png" class="img-thumbnail" alt="Company">
+                            </div>
+                            <div class="carousel-item  ">
+                                <img src="covizon/user/Screenshot_20210704_180427.png" class="img-thumbnail" alt="Startup">
+                            </div>
+                            <div class="carousel-item  ">
+                                <img src="covizon/user/Screenshot_20210704_180437.png" class="img-thumbnail" alt="Startup">
+                            </div>
+
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#cdemo1" data-slide="prev">
+                            <span class="carousel-control-prev-icon"><i class="fas fa-angle-double-left"></i></span>
+                        </a>
+                        <a class="carousel-control-next" href="#cdemo1" data-slide="next">
+                            <span class="carousel-control-next-icon"><i class="fas fa-angle-double-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <br><br><br>
+            <h3 class="text-center my-sm-auto ">4. WorkerZPort :</h3>
+
+            <div class="row justify-content-lg-between justify-content-sm-between justify-content-md-between">
+                <div class="col-lg-4 col-md-5 col-sm-5 p-sm-auto ">
+                    <h5>Admin Pannel</h5>
+                    <div id="wdemo" class="carousel slide inner" data-ride="carousel">
+
+
+                        <!-- The slideshow -->
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active ">
+                                <img src="workerZport/admin/Screenshot_20210704_184246.png" class="img-thumbnail" alt="Los Angeles">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="workerZport/admin/Screenshot_20210704_184252.png" class="img-thumbnail" alt="Chicago">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="workerZport/admin/Screenshot_20210704_184300.png" class="img-thumbnail" alt="New York">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="workerZport/admin/Screenshot_20210704_184307.png" class="img-thumbnail" alt="New York">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="workerZport/admin/Screenshot_20210704_184314.png" class="img-thumbnail" alt="New York">
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#wdemo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"><i class="fas fa-angle-double-left"></i></span>
+                        </a>
+                        <a class="carousel-control-next" href="#wdemo" data-slide="next">
+                            <span class="carousel-control-next-icon"><i class="fas fa-angle-double-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-5 ">
+                    <h5 class="">User Pannel</h5>
+                    <div id="wdemo1" class="carousel slide inner " data-ride="carousel">
+
+
+
+                        <!-- The slideshow -->
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active ">
+                                <img src="workerZport/user/Screenshot_20210704_184034.png" class="img-thumbnail" alt="Login">
+                            </div>
+                            <div class="carousel-item  ">
+                                <img src="workerZport/user/Screenshot_20210704_184043.png" class="img-thumbnail" alt="Main">
+                            </div>
+                            <div class="carousel-item  ">
+                                <img src="workerZport/user/Screenshot_20210704_184049.png" class="img-thumbnail" alt="Navigation Menu">
+                            </div>
+                            <div class="carousel-item  ">
+                                <img src="workerZport/user/Screenshot_20210704_184114.png" class="img-thumbnail" alt="Books">
+                            </div>
+                            <div class="carousel-item  ">
+                                <img src="workerZport/user/Screenshot_20210704_184121.png" class="img-thumbnail" alt="Company">
+                            </div>
+
+
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#wdemo1" data-slide="prev">
+                            <span class="carousel-control-prev-icon"><i class="fas fa-angle-double-left"></i></span>
+                        </a>
+                        <a class="carousel-control-next" href="#wdemo1" data-slide="next">
+                            <span class="carousel-control-next-icon"><i class="fas fa-angle-double-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+
+            <h3 class="text-center my-sm-auto ">5. Apna Sathi :</h3><br><br>
+
+            <div class="row justify-content-lg-between justify-content-sm-between justify-content-md-between">
+                <div class="col-lg-6 col-md-6 col-sm-6 p-sm-auto m-auto">
+
+                    <div id="ademo" class="carousel slide inner" data-ride="carousel">
+
+
+                        <!-- The slideshow -->
+                        <div class="carousel-inner text-center">
+                            <div class="carousel-item active">
+                                <img src="Apnasathi/Screenshot_20210704_175027.png" class="img-thumbnail" alt="Los Angeles">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="Apnasathi/Screenshot_20210704_175424.png" class="img-thumbnail" alt="Chicago">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="Apnasathi/Screenshot_20210704_175437.png" class="img-thumbnail" alt="New York">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="Apnasathi/Screenshot_20210704_175451.png" class="img-thumbnail" alt="New York">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="Apnasathi/Screenshot_20210704_175502.png" class="img-thumbnail" alt="New York">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="Apnasathi/Screenshot_20210704_175516.png" class="img-thumbnail" alt="New York">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="Apnasathi/Screenshot_20210704_175530.png" class="img-thumbnail" alt="New York">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="Apnasathi/Screenshot_20210704_175538.png" class="img-thumbnail" alt="New York">
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#ademo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"><i class="fas fa-angle-double-left"></i></span>
+                        </a>
+                        <a class="carousel-control-next" href="#ademo" data-slide="next">
+                            <span class="carousel-control-next-icon"><i class="fas fa-angle-double-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <section class="contact" >
+        <div class="container m-lg-auto ">
+            <br><br><br><br><br>
+            <h1 class=" text-center" id="cntct"> contact me</h1><br><br>
+            <form action=""></form>
+            <div class="from-group">
+                <label for="user">Your Name: </label>
+                <input type="text" name="" id="user" class="form-control">
+            </div><br>
+            <div class="from-group">
+                <label for="user">Your Email: </label>
+                <input type="email" name="" id="user" class="form-control">
+            </div><br>
+            <div class="from-group">
+                <label for="email">Message: </label>
+                <input type="email" name="" id="user" class="form-control">
+            </div><br><br>
+            <div class="sendbtn text-center">
+                <button class="btn clickme">send</button>
+                <!-- <a href="#" class="btn"  onclick="popUp()">Send</a> -->
+            </div>
+            </form><br><br>
+            <p class="text-center">Thank you for the time you spent with me . </p>
+
+        </div><br><br><br><br><br><br>
+    </section>
+
+</body>
+
+</html>

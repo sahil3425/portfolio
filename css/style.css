@@ -1,0 +1,204 @@
+/* base rules */
+*{
+    margin: 0;padding: 0;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Monsterrat',sans-serif;
+}
+
+p{
+    font-family: 'Nunito',sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color:#6c757d;
+}
+/* navigation */
+nav.r-nav{
+    background: transparent;
+    padding: 20px 0;
+    transition: .5s all;
+}
+nav .navbar-brand{
+    font-size: 30px;
+    color: #fff;
+   
+}
+
+nav .navbar-nav li a{
+    color:rgba(255,255,255,0.8)!important;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    font-family: 'Nunito',sans-serif;
+}
+nav .navbar-nav li{
+    margin-left: 15px;
+}
+nav.r-nav.stickyadd{
+    background:#fff !important;
+    /* margin-top: 10px!important; */
+    padding: 15px 0;
+    box-shadow:0 1px 8px 3px rgba(0,0,0,0.05);
+    transition: .5s all ease-in-out;
+   
+    
+}
+nav.stickyadd .navbar-brand{
+    color:black;
+    font-size: 40px;
+    transition: .5s all;
+   
+}
+nav.stickyadd .navbar-nav .nav-link{
+    color: #000!important;
+    font-size: larger;
+}
+
+
+.navbar .hamburger{
+    color:white;
+
+}
+nav.stickyadd .hamburger{
+    color:black
+}
+/* headersection */
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../image/IMG_4545.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header-content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content-box{
+    max-width: 700px;
+    color: white;
+
+
+}
+.content-box h4{
+    font-size: 30px;
+}
+.content-box h1{
+    font-size: 52px;
+}
+.content-box button{
+    color:white;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 5px 25px;
+}
+.content-box button:hover{
+    color:black;
+    background: white;
+    transition: 0.5s all;
+}
+.content-box p{
+    color:white;
+}
+/* AboutUs */
+.about li a{
+color:black;
+display:inline-block;
+height:42px;
+width:42px;
+font-size: 20px;
+border:2px solid #d4d4d4;
+border-radius: 50%;
+line-height: 40px;
+transition:0.5s all;
+text-align: center;
+}
+.about li a:hover{
+    color:#EE8683;
+}
+.r-p{
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+/* experience */
+.exp-class .progress {
+    height: 10px;
+    border-radius: 20px;
+    font-size: 10px;
+
+}
+.progress-bar{
+    background-color: #EE8683!important;
+}
+.exp-class label{
+    font-size: 20px;
+    margin: 10px;
+}
+/* service */
+.bg-sec{
+    background: #F8F9FA;
+}
+.card,.card-header{
+    background: #F8F9FA!important;
+
+}
+.card-header{
+    border: none!important;
+
+}
+  
+.service-class .card-header i{
+    font-size: 50px!important;
+}
+
+
+.service-border{
+    height: 2px;
+    width: 40px;
+    margin: 15px auto;
+    background: #e65f78;
+}
+.carousel-inner img,.item {
+   height: 60vh!important;
+    
+  }
+  .lg{
+      background: #DEE4E7;
+  }
+  .carousel-control-next-icon{
+    background-color:transparent!important;
+font-size: smaller!important;
+  }
+  .carousel-control-prev-icon{
+    background-color:transparent!important;
+    font-size: smaller!important;
+      }
+      .carousel-control-next-icon i{
+        color:black!important;
+    font-size: 30px;
+      }
+      .carousel-control-prev-icon i{
+        color:black!important;
+        font-size: 30px;
+          }
+          .sendbtn button{
+            color:black;
+            text-decoration: none;
+            border: 2px solid black;
+            border-radius: 20px;
+            padding: 5px 25px;
+            background-color: white;
+        }
+        .sendbtn  button:hover{
+            color:#e65f78;
+            border: 2px solid #e65f78;
+            background-color: white;
+            transition: 0.5s all;
+        }
+         
