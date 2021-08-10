@@ -18,13 +18,16 @@ nav.r-nav{
     background: transparent;
     padding: 20px 0;
     transition: .5s all;
+    
 }
 nav .navbar-brand{
     font-size: 30px;
     color: #fff;
    
 }
-
+nav .navbar-nav{
+   margin-top: 7px;
+}
 nav .navbar-nav li a{
     color:rgba(255,255,255,0.8);
     font-size: 16px;
@@ -32,44 +35,48 @@ nav .navbar-nav li a{
     letter-spacing: 0.05em;
     font-family: 'Nunito',sans-serif;
 }
-nav .navbar-nav{
+/* nav .navbar-nav{
     height:55px;
-}
+} */
 nav .navbar-nav li{
     margin-left: 15px;
     padding-top: 5px;
 }
-nav .navbar-nav li:hover{
-    
+h6{
+  
+    display: inline-block;
+    height:30px;
+    font-weight: bold;
+}
+h6:hover{
     border-bottom: 2px solid #EE8683;
 }
+
+
 nav.r-nav.stickyadd{
     background:#fff;
+    height: auto;
     /* margin-top: 10px!important; */
     padding: 15px 0;
-    box-shadow:0 1px 8px 3px rgba(0,0,0,0.05);
-    transition: .5s all ease-in-out;
-   
-    
+    box-shadow:0 1px 8px 3px rgba(0,0,0,0.5);
+    transition: .5s all ease-in-out; 
 }
 nav.stickyadd .navbar-brand{
     color:black;
     font-size: 40px;
-    transition: .5s all;
-   
+    transition: .5s all;  
 }
 nav.stickyadd .navbar-nav .nav-link{
     color: #000;
     font-size: larger;
 }
 
-
 .navbar .hamburger{
     color:white;
 
 }
 nav.stickyadd .hamburger{
-    color:black
+    color:black;
 }
 /* headersection */
 header{
