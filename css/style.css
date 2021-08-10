@@ -26,17 +26,25 @@ nav .navbar-brand{
 }
 
 nav .navbar-nav li a{
-    color:rgba(255,255,255,0.8)!important;
+    color:rgba(255,255,255,0.8);
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 0.05em;
     font-family: 'Nunito',sans-serif;
 }
+nav .navbar-nav{
+    height:55px;
+}
 nav .navbar-nav li{
     margin-left: 15px;
+    padding-top: 5px;
+}
+nav .navbar-nav li:hover{
+    
+    border-bottom: 2px solid #EE8683;
 }
 nav.r-nav.stickyadd{
-    background:#fff !important;
+    background:#fff;
     /* margin-top: 10px!important; */
     padding: 15px 0;
     box-shadow:0 1px 8px 3px rgba(0,0,0,0.05);
@@ -51,7 +59,7 @@ nav.stickyadd .navbar-brand{
    
 }
 nav.stickyadd .navbar-nav .nav-link{
-    color: #000!important;
+    color: #000;
     font-size: larger;
 }
 
@@ -135,7 +143,7 @@ text-align: center;
 
 }
 .progress-bar{
-    background-color: #EE8683!important;
+    background-color: #EE8683;
 }
 .exp-class label{
     font-size: 20px;
@@ -202,4 +210,3 @@ font-size: smaller!important;
             background-color: white;
             transition: 0.5s all;
         }
-         
