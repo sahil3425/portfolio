@@ -20,8 +20,6 @@ var typed= new Typed(".element",{
     loop:true,
     loopCount:Infinity,
     startDelay:1000,
-    
-  
 });
 //progressbar
 
@@ -29,9 +27,7 @@ $('.clickme').click(function(){
    
     swal("Done!", "You will get response soon", "success");
 });
-$('#cv').click(function(){
-    swal("Sorry!","it will be added soon", "info");
-});
+
 
 var waypoint = new Waypoint({
     element: document.getElementById('exp-class'),

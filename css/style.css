@@ -3,6 +3,12 @@
     margin: 0;padding: 0;
 
 }
+body{
+    overflow-y: scroll;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
 h1,h2,h3,h4,h5,h6{
     font-family: 'Monsterrat',sans-serif;
 }
@@ -23,7 +29,10 @@ nav.r-nav{
 nav .navbar-brand{
     font-size: 30px;
     color: #fff;
-   
+}
+nav .navbar-brand:hover{
+    
+    color: #e65f78;
 }
 nav .navbar-nav{
    margin-top: 7px;
@@ -38,18 +47,31 @@ nav .navbar-nav li a{
 /* nav .navbar-nav{
     height:55px;
 } */
+.btn2{
+    color:white;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 5px 25px;
+}
+.btn2:hover{
+    color:black;
+    background: white;
+    transition: 0.5s all;
+}
 nav .navbar-nav li{
     margin-left: 15px;
     padding-top: 5px;
 }
 h6{
-  
     display: inline-block;
     height:30px;
-    font-weight: bold;
+    font-weight: 500;
+    transition: all 0.3s;
 }
 h6:hover{
-    border-bottom: 2px solid #EE8683;
+    border-bottom: 3px solid #EE8683;
+    color: #e65f78;
 }
 
 
@@ -60,11 +82,15 @@ nav.r-nav.stickyadd{
     padding: 15px 0;
     box-shadow:0 1px 8px 3px rgba(0,0,0,0.5);
     transition: .5s all ease-in-out; 
+    border-radius: 20px;
 }
 nav.stickyadd .navbar-brand{
     color:black;
     font-size: 40px;
     transition: .5s all;  
+}
+nav.stickyadd .navbar-brand:hover{
+    color:#e65f78;
 }
 nav.stickyadd .navbar-nav .nav-link{
     color: #000;
@@ -179,6 +205,9 @@ text-align: center;
     width: 40px;
     margin: 15px auto;
     background: #e65f78;
+}
+.carousel-inner{
+    padding-top: 30px;
 }
 .carousel-inner img,.item {
    height: 60vh!important;
